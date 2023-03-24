@@ -1,0 +1,160 @@
+body {
+    background-image: linear-gradient(90deg, #232323, #343434, #464646, #575757, #696969, #7a7a7a);
+    background-size: cover;
+    color: black;
+    text-shadow: 0px 0px 5px white;
+  }
+  
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-shadow: 0px 0px 5px white;
+      padding: 1rem;
+    }
+  
+    #main-logo {
+      width: 75px;
+      border-radius: 37.5px;
+    }
+    
+    .menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      margin-right: 2rem;
+    }
+    
+    .menu li:last-child {
+      margin-right: 0;
+    }
+    
+    .menu li a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+    
+    .menu li a:hover {
+      color: #ff5733;
+    }
+    
+    .burger {
+      display: none;
+    }
+    
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        background-color: transparent;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+      }
+    
+      .menu li {
+        margin: 0;
+      }
+    
+      .burger {
+        display: block;
+        cursor: pointer;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .logo a {
+        font-size: 1.2rem;
+      }
+    
+      .menu li a {
+        font-size: 1rem;
+      }
+    }
+    
+    .burger:hover .line {
+      background-color: #ff5733;
+    }
+    
+    .burger .line {
+      width: 25px;
+      height: 3px;
+      background-color: #000;
+      margin: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    body {  
+
+        background-color: #f0f5f3;  
+
+    }  
+
+    #title {  
+
+        text-align: center;  
+
+        text-shadow: 5px 5px 10px white;  
+
+        font-size: 8vh;  
+
+    }  
+
+    img {
+        display: flex;
+        width: 300px;
+        border: 1px solid whitesmoke;
+        box-shadow: 0px 0px 6px whitesmoke;
+    }     
+
+    #caption {  
+
+        font-size: 19px;  
+        font-family:sans-serif; 
+        background-image: linear-gradient(90deg, #c9a227, #dbb42c,
+        #edc531, #fad643, #ffe169);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       text-shadow: 0px 0px 5px grey;
+        margin-top: 20px;
+
+    }  
+
+    div#tribute-data {  
+
+        background-color: rgb(46, 139, 87, 0.25);  
+
+        box-shadow: 20px 20px 20px #96c996;  
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+
+        padding: 25px 25px;  
+
+        margin: 11px;  
+
+        margin-top: 50px;  
+
+    }  
+
+    h1.title-vk {  
+
+        font-size: 35px;  
+
+        color: white;  
+
+        text-align: center;  
+
+        text-shadow: 5px 6px 10px black;  
+
+    } 
